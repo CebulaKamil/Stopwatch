@@ -1,3 +1,72 @@
 body {
-    background-color: red;
+    min-height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    text-shadow: 2px 2px 5px black;
 }
+
+.center {
+    text-align: center;
+    font-size: 5vw;
+}
+
+.end {
+    text-align: end;
+    font-size: 2vw;
+}
+
+.button-col {
+    font-size: 2vw;
+    text-align: center;
+
+    button {
+        background-color: rgba($color: #000000, $alpha: 0.8);
+        padding-left: 5vw;
+        padding-right: 5vw;
+        color: white;
+    }
+
+    .hide {
+        display: none;
+    }
+
+    button:hover {
+        background-color: black;
+        color: white;
+        cursor: pointer;
+    }
+}
+
+.row-lop {
+    padding-top: 20vh;
+
+    .col-lop {
+        height: 20vh;
+        overflow-y: scroll;
+        background-color: rgba($color: white, $alpha: 0.1);
+    } 
+
+    .div-lop {
+        width: 100%;
+        border-bottom: 3px solid white;
+    }
+
+    .title-lop {
+        display: inline-block;
+        font-size: 2vw;
+    }
+
+    .lap-details {
+        float: right;
+        font-size: 2vw;
+    }
+}
+
+.xxxddd {
+    float: right;
+}
+
+
